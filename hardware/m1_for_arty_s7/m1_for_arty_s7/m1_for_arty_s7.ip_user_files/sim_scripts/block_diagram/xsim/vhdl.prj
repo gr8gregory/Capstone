@@ -1,0 +1,14 @@
+vhdl xil_defaultlib  \
+"../../../../../block_diagram/ip/m1_for_arty_s7_axi_bram_ctrl_0_0_1/sim/m1_for_arty_s7_axi_bram_ctrl_0_0.vhd" \
+"../../../../../block_diagram/ip/m1_for_arty_s7_axi_gpio_0_0_1/sim/m1_for_arty_s7_axi_gpio_0_0.vhd" \
+"../../../../../block_diagram/ip/m1_for_arty_s7_axi_gpio_1_0_1/sim/m1_for_arty_s7_axi_gpio_1_0.vhd" \
+"../../../../../block_diagram/ip/m1_for_arty_s7_axi_quad_spi_0_0_1/sim/m1_for_arty_s7_axi_quad_spi_0_0.vhd" \
+"../../../../../block_diagram/ip/m1_for_arty_s7_axi_uartlite_0_0_1/sim/m1_for_arty_s7_axi_uartlite_0_0.vhd" \
+"../../../../../block_diagram/ip/m1_for_arty_s7_proc_sys_reset_DAPLink_0_1/sim/m1_for_arty_s7_proc_sys_reset_DAPLink_0.vhd" \
+"../../../../../block_diagram/ip/m1_for_arty_s7_proc_sys_reset_base_0_1/sim/m1_for_arty_s7_proc_sys_reset_base_0.vhd" \
+"../../../../../block_diagram/ip/m1_for_arty_s7_axi_gpio_0_1_1/sim/m1_for_arty_s7_axi_gpio_0_1.vhd" \
+"../../../../../block_diagram/ip/m1_for_arty_s7_axi_quad_spi_0_1_1/sim/m1_for_arty_s7_axi_quad_spi_0_1.vhd" \
+"../../../../../block_diagram/ip/m1_for_arty_s7_axi_single_spi_0_0_1/sim/m1_for_arty_s7_axi_single_spi_0_0.vhd" \
+"../../../../../block_diagram/ip/m1_for_arty_s7_axi_xip_quad_spi_0_0_1/sim/m1_for_arty_s7_axi_xip_quad_spi_0_0.vhd" \
+
+nosort

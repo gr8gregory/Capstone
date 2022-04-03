@@ -1,0 +1,57 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port s_axi_aclk -pg 1 -y 130 -defaultsOSRD
+preplace port uart_txd_axi -pg 1 -y 530 -defaultsOSRD
+preplace port ext_spi_clk -pg 1 -y 590 -defaultsOSRD
+preplace port SWCLK -pg 1 -y 530 -defaultsOSRD
+preplace port qspi_xip_irq -pg 1 -y 120 -defaultsOSRD
+preplace port SWDO -pg 1 -y 570 -defaultsOSRD
+preplace port nSRST -pg 1 -y 550 -defaultsOSRD
+preplace port qspi_irq -pg 1 -y 660 -defaultsOSRD
+preplace port spi_irq -pg 1 -y 360 -defaultsOSRD
+preplace port SWDOEN -pg 1 -y 550 -defaultsOSRD
+preplace port uart_rxd_axi -pg 1 -y 470 -defaultsOSRD
+preplace port Shield_out -pg 1 -y 430 -defaultsOSRD
+preplace port UART_out -pg 1 -y 450 -defaultsOSRD
+preplace port S_AXI -pg 1 -y 110 -defaultsOSRD
+preplace port s_axi_aresetn -pg 1 -y 150 -defaultsOSRD
+preplace port SWDI -pg 1 -y 510 -defaultsOSRD
+preplace port DAPLink_fittedn -pg 1 -y 490 -defaultsOSRD
+preplace inst DAPLink_to_Arty_shield_0 -pg 1 -lvl 3 -y 490 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 2 -y 290 -defaultsOSRD
+preplace inst axi_single_spi_0 -pg 1 -lvl 2 -y 440 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 1 -y 250 -defaultsOSRD
+preplace inst axi_xip_quad_spi_0 -pg 1 -lvl 2 -y 110 -defaultsOSRD
+preplace inst axi_quad_spi_0 -pg 1 -lvl 2 -y 650 -defaultsOSRD
+preplace netloc S_AXI_1 1 0 1 NJ
+preplace netloc DAPLink_to_Arty_shie_1_shield 1 3 1 NJ
+preplace netloc DAPLink_to_Arty_shie_1_UART 1 3 1 NJ
+preplace netloc axi_xip_quad_spi_0_ip2intc_irpt 1 2 2 NJ 120 NJ
+preplace netloc axi_single_spi_0_ip2intc_irpt 1 2 2 650J 360 NJ
+preplace netloc s_axi_aclk_1 1 0 2 10 40 350
+preplace netloc axi_single_spi_0_SPI_0 1 2 1 660
+preplace netloc s_axi_aresetn_1 1 0 2 20 50 320
+preplace netloc axi_interconnect_0_M02_AXI 1 1 1 340
+preplace netloc axi_quad_spi_1_ip2intc_irpt 1 2 2 NJ 660 NJ
+preplace netloc axi_xip_quad_spi_0_SPI_0 1 2 1 690
+preplace netloc DAPLink_to_Arty_shie_1_DAPLink_fittedn 1 3 1 NJ
+preplace netloc axi_quad_spi_1_SPI_0 1 2 1 690
+preplace netloc DAPLink_to_Arty_shie_1_SWRSTn 1 3 1 NJ
+preplace netloc DAPLink_to_Arty_shie_1_uart_rxd_axi 1 3 1 NJ
+preplace netloc axi_interconnect_0_M04_AXI 1 1 1 330
+preplace netloc axi_gpio_0_gpio_io_o 1 2 1 670
+preplace netloc DAPLink_to_Arty_shie_1_SWDI 1 3 1 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 1 1 340
+preplace netloc SWDO_1 1 0 3 NJ 570 360J 560 NJ
+preplace netloc ext_spi_clk_1 1 0 3 NJ 590 370 540 700J
+preplace netloc axi_interconnect_0_M01_AXI 1 1 1 330
+preplace netloc SWDOEN_1 1 0 3 NJ 550 NJ 550 710J
+preplace netloc DAPLink_to_Arty_shie_1_SWCLK 1 3 1 NJ
+preplace netloc axi_interconnect_0_M03_AXI 1 1 1 N
+preplace netloc uart_txd_axi_1 1 0 3 NJ 530 NJ 530 680J
+levelinfo -pg 1 -10 170 510 850 1000 -top -10 -bot 740
+",
+}
+

@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Thu Mar 31 14:34:51 2022
+# Process ID: 17256
+# Current directory: C:/Users/Gregory/AT472-BU-98000-r0p1-00rel0/hardware/m1_for_arty_s7/m1_for_arty_s7
+# Command line: vivado.exe -mode batch -source make_prog_files.tcl -notrace
+# Log file: C:/Users/Gregory/AT472-BU-98000-r0p1-00rel0/hardware/m1_for_arty_s7/m1_for_arty_s7/vivado.log
+# Journal file: C:/Users/Gregory/AT472-BU-98000-r0p1-00rel0/hardware/m1_for_arty_s7/m1_for_arty_s7\vivado.jou
+#-----------------------------------------------------------
+source make_prog_files.tcl -notrace
+  Running updatemem ...
+
+****** updatemem v2018.2.2 (64-bit)
+  **** SW Build 2348494 on Mon Oct  1 18:25:44 MDT 2018
+  **** IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Xilinx/Vivado/2018.2/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo ./m1.mmi -data ./bram_s7.elf -proc dummy -bit ./m1_for_arty_s7.runs/impl_1/m1_for_arty_s7_wrapper.bit -out m1_for_arty_s7.bit -force
+Loading bitfile ./m1_for_arty_s7.runs/impl_1/m1_for_arty_s7_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream m1_for_arty_s7.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 518.215 ; gain = 462.203
+INFO: [Common 17-206] Exiting updatemem at Thu Mar 31 14:35:13 2022...
+
+********************************************
+  m1_for_arty_s7.bit correctly generated
+********************************************
+
+Command: write_cfgmem -force -format MCS -size 16 -interface SPIx4 -loadbit { up 0 m1_for_arty_s7.bit} m1_for_arty_s7.mcs
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile m1_for_arty_s7.bit
+Writing file ./m1_for_arty_s7.mcs
+Writing log file ./m1_for_arty_s7.prm
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    Mar 31 14:35:13 2022    m1_for_arty_s7.bit
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+
+********************************************
+  m1_for_arty_s7.mcs correctly generated
+********************************************
+
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 31 14:35:15 2022...
